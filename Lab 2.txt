@@ -1,0 +1,28 @@
+
+1. Check whether the number is even or odd using a ternary operator
+number = int(input("Enter a number: "))
+answer = "Even" if number % 2 == 0 else "Odd"
+print("The number is:", answer)
+
+2. Swap two numbers taken from the user
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+
+# Swapping without using a third variable
+number1, number2 = number2, number1
+print("Number After Swapping are:")
+print("After swapping, first number is:", number1)
+print("After swapping, second number is:", number2)
+
+3. Convert kilometers to miles
+kilometers = float(input("Enter the distance in kilometers: "))
+miles = kilometers * 0.621371  # Conversion factor
+print("Distance in miles:", miles)
+
+ 4. Find the Simple Interest with user input
+principal_amount = float(input("Enter the principal amount (in Rs.): "))
+rate = float(input("Enter the rate of interest (per year): "))
+time = float(input("Enter the time period (in years): "))
+
+simple_interest = (principal_amount * rate * time) / 100
+print("The Simple Interest is:", simple_interest)
